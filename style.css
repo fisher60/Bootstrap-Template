@@ -11,6 +11,22 @@
   background-repeat: no-repeat;
   background-size: 100% 30%;
 }
+.my-primary{
+  color: white;
+  background-color: rgb(13,160,231);
+}
+.my-secondary{
+  color: white;
+  background-color: rgb(96,189,234);
+}
+.my-tert{
+  color: white;
+  background-color: rgb(178,177,180);
+}
+.my-icon{
+  color: rgb(105,33,246);
+  font-size: 24px;
+}
 @media only screen and (min-width: 1000px){
 .parallax { 
   /* The image used */

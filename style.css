@@ -3,7 +3,7 @@
   background-image: url("ocean.jpg");
 
   /* Set a specific height */
-  height: 500px; 
+  height: 180px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -26,21 +26,6 @@
 .my-icon{
   color: rgb(105,33,246);
   font-size: 24px;
-}
-@media only screen and (min-width: 1000px){
-.parallax { 
-  /* The image used */
-  background-image: url("ocean.jpg");
-
-  /* Set a specific height */
-  height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 }
 
 /* Flip card CSS */
@@ -103,4 +88,40 @@
   margin: auto;
   width: 70%;
   padding: 10px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-google {
+  background: rgb(105,33,246);
+  color: white;
+}
+.fa-instagram {
+  background: rgb(105,33,246);
+  color: white;
+  }
+
+@media only screen and (min-width: 1000px){
+.parallax { 
+  /* The image used */
+  background-image: url("ocean.jpg");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 }

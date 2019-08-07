@@ -130,21 +130,20 @@
 #bottomdesktop{
   display: block;
 }
-
 }
 
-@media only screen and (min-width: 1000px) and (max-height: 750px){
+@media only screen and (min-width: 1000px) and (max-height: 800px){
   .parallax{
-    height: 300px;
+    height: 500px;
   }
 }
 
-@media only screen and (min-width: 1000px) and (max-height: 1399px){
+@media only screen and (min-width: 1000px) and (min-height: 801px) and (max-height: 1100px){
   .parallax{
     height: 600px;
   }
 }
-@media only screen and (min-width: 1000px) and (min-height: 1400px){
+@media only screen and (min-width: 1000px) and (min-height: 1101px) and (max-height: 1500px){
   .parallax{
     height: 890px;
   }

@@ -1,6 +1,9 @@
+#bottomdesktop{
+  display: none;
+}
 .parallax { 
   /* The image used */
-  background-image: url("ocean.jpg");
+  background-image: url("ella.jpg");
 
   /* Set a specific height */
   height: 180px; 
@@ -112,16 +115,36 @@
 @media only screen and (min-width: 1000px){
 .parallax { 
   /* The image used */
-  background-image: url("ocean.jpg");
+  background-image: url("ella.jpg");
 
-  /* Set a specific height */
-  height: 500px; 
-
+  /* Set a specific height */ 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+#bottommobile{
+  display: none;
+}
+#bottomdesktop{
+  display: block;
+}
+}
 
+@media only screen and (min-width: 1000px) and (max-height: 800px){
+  .parallax{
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 801px) and (max-height: 1100px){
+  .parallax{
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 1000px) and (min-height: 1101px) and (max-height: 1500px){
+  .parallax{
+    height: 890px;
+  }
 }

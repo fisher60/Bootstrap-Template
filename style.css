@@ -1,3 +1,10 @@
+.about-p{
+  text-align: left;
+  margin-left: 15%;
+}
+.about-p p{
+  color: black;
+}
 #bottomdesktop{
   display: none;
 }
@@ -25,6 +32,9 @@
 .my-tert{
   color: white;
   background-color: rgb(178,177,180);
+}
+.my-tert2{
+  color: rgb(105,33,246);
 }
 .my-icon{
   color: rgb(105,33,246);

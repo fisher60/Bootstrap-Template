@@ -1,6 +1,10 @@
+.fixoverflow{
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
 .about-p{
   text-align: left;
-  margin-left: 15%;
 }
 .about-p p{
   color: black;
@@ -98,9 +102,7 @@
   border-spacing: 5px;
 }
 .center {
-  margin:  25px 50px 80px 80px;
   width: 100%;
-  padding: 10px;
 }
 .fa {
   padding: 20px;

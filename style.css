@@ -83,9 +83,9 @@
 }
 /* Column spacing */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+  float: all;
+  width: 33%;
+  padding: 20px;
   
 
 }
@@ -98,8 +98,8 @@
   border-spacing: 5px;
 }
 .center {
-  margin: auto;
-  width: 70%;
+  margin:  25px 50px 80px 80px;
+  width: 100%;
   padding: 10px;
 }
 .fa {

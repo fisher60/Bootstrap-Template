@@ -9,8 +9,8 @@
   text-align: center;
 }
 .about-image{
-  height: 500px;
-  width: 500px;
+  height: 100%;
+  width: 100%;
 }
 .about-p{
   text-align: left;
@@ -194,6 +194,10 @@ input[type=submit]:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .about-image{
+    height: 500px;
+    width: 500px;
   }
 }
 

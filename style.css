@@ -23,7 +23,7 @@
 }
 .parallax { 
   /* The image used */
-  background-image: url("ella.jpg");
+  background-image: url("ella.JPG");
 
   /* Set a specific height */
   height: 180px; 
@@ -186,7 +186,7 @@ input[type=submit]:hover {
 @media only screen and (min-width: 1000px){
   .parallax { 
     /* The image used */
-    background-image: url("ella.jpg");
+    background-image: url("ella.JPG");
 
     /* Set a specific height */ 
     /* Create the parallax scrolling effect */

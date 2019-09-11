@@ -1,3 +1,11 @@
+.card-body{
+  height: 120px;
+  width: 200;
+}
+.card-img-top{
+  height: 450px;
+  width: 200px;
+}
 .center{
   padding-left: 5%;
   padding-right: 5%;

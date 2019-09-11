@@ -18,5 +18,5 @@ function validate(){
 	var last_name=document.getElementById("lname").value;
 	var message=document.getElementById("subject").value;
 
-	alert("Thanks " + first_name + " " + last_name +" for your message saying that " + message + " we won't do anything with this message so chase a bag");
+	alert("Thanks " + first_name + " " + last_name +" for your message saying " + message + " This site is currently under construction, please contact us at TheSombros@gmail.com.");
 }
